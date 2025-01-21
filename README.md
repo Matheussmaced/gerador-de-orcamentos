@@ -1,59 +1,52 @@
-# Orcamentos
+# 🏗️ Calculadora de Orçamentos para Lojas de Material de Construção  
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.4.
+![Modelo](public/capture.PNG)  
 
-## Development server
+Este projeto é uma aplicação para ajudar lojas de material de construção a gerenciar produtos e calcular orçamentos de forma eficiente. Com uma interface amigável e conectada a um backend robusto, a aplicação permite:  
 
-To start a local development server, run:
+- **Gerenciar produtos:** adicionar, editar, deletar e pesquisar itens no sistema.  
+- **Calcular orçamentos:** calcular automaticamente o valor total dos materiais incluídos.  
 
+---
+
+## 🚀 Funcionalidades  
+
+### 🔨 Gerenciamento de Produtos  
+- **Adicionar Produto:** Insira novos produtos com nome, preço, descrição e outros detalhes.  
+- **Editar Produto:** Atualize informações de produtos existentes.  
+- **Deletar Produto:** Remova itens descontinuados.  
+- **Pesquisar Produto:** Localize produtos rapidamente por nome ou outros critérios.  
+
+### 📋 Cálculo de Orçamentos  
+- Monte orçamentos personalizados com os produtos cadastrados.  
+- Calcule o valor total dos materiais automaticamente.  
+
+---
+
+## 🛠️ Tecnologias Utilizadas  
+
+### Frontend  
+- **Angular 17**: Framework moderno para criar aplicações web.  
+- **SCSS**: Estilização avançada com suporte a variáveis e mixins.  
+- **Angular Material**: Biblioteca de componentes para uma interface consistente e responsiva.  
+
+### Backend  
+- **Spring Boot**: API REST robusta e escalável.  
+- **PostgreSQL**: Banco de dados relacional para armazenar informações de produtos e orçamentos.  
+
+---
+
+## ⚙️ Instalação e Uso  
+
+### Pré-requisitos  
+Certifique-se de ter as seguintes ferramentas instaladas:  
+- **Node.js** e **npm** ou **yarn** (para o frontend).  
+- **Java 17** e **Maven** (para o backend).  
+- **PostgreSQL** (para o banco de dados).  
+
+### Passos para rodar o projeto  
+
+#### 1. Clone o repositório:  
 ```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
