@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { RouterModule, Routes } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { HeaderComponentComponent } from './components/header-component/header-component.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent }
@@ -14,7 +15,8 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    HomePageComponent
+    HomePageComponent,
+    HeaderComponentComponent
   ],
   imports: [
     BrowserModule,
